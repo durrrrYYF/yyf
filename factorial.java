@@ -1,11 +1,16 @@
 /*
-±àĞ´Ò»¸ö³ÌĞò£¬¼ÆËã×ÔÈ»ÊınµÄ½×³Ën!¡££¨ÌáÊ¾£º¿ÉÓÃÑ­»·Íê³É£©
+ç¼–å†™ä¸€ä¸ªç¨‹åºï¼Œè®¡ç®—è‡ªç„¶æ•°nçš„é˜¶ä¹˜n!ã€‚ï¼ˆæç¤ºï¼šå¯ç”¨å¾ªç¯å®Œæˆï¼‰
 */
 public class factorial{
 	 public static void main(String[] args){
-         //½«args[0]×ª»»Îª½×Êın
-         
-         //Ñ­»·¼ÆËãn!£¬·µ»Ø½á¹û
-	 	 
+         //å°†args[0]è½¬æ¢ä¸ºé˜¶æ•°n
+           int n=Integer.parseInt(args[0]);
+         //å¾ªç¯è®¡ç®—n!ï¼Œè¿”å›ç»“æœ
+         int a=1;int b=1;int c=1;
+	 	 for(int i=1;i<n;i++)
+	 	 {
+	 	 	a=i*a;
+	 	 }
+	 	 System.out.print(a);
 	}
 }
